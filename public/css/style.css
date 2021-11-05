@@ -184,6 +184,43 @@ img {
     height: 24vw;
     border: 3px solid;
 }
+
+.icon {
+    padding-bottom: 20px;
+}
+
+.contact-icon {
+    font-size: 1.2rem !important;
+    padding: 10px 10px;
+
+}
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.contact {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.social-media {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding-top: 10px;
+
+}
+
+.social-icons {
+    padding: 10px 20px;
+}
 /***********Media Queries************/
 @media all and (max-width: 375px) {}
 

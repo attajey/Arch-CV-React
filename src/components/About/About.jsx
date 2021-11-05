@@ -75,7 +75,7 @@ const About = () => {
                     focused on Auto-cad drafting, Residential Design, etc.
                   </p>
                   <a
-                    className="ps-5 text-info"
+                    className="text-info"
                     href="An internship program in Arian Engineering Group, mainly focused on Auto-cad drafting, Residential 
                   Design, etc."
                   >
