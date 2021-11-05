@@ -209,7 +209,6 @@ img {
 }
 
 .social-media {
-
     display: flex;
     flex-direction: row;
     justify-content: start;
@@ -219,7 +218,15 @@ img {
 }
 
 .social-icons {
+    color: black;
     padding: 10px 20px;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+
+}
+.social-icons:hover {
+    transform: scale(1.2,1.2);
 }
 /***********Media Queries************/
 @media all and (max-width: 375px) {}
