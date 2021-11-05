@@ -38,36 +38,36 @@ const About = () => {
       <div className="row pt-5">
         <div className="col-12 px-5 fs-5">
           <div className="custom-media media pb-5">
-            <i className="fas fa-user-graduate fa-4x icon"></i>
+            <i className="fa fa-graduation-cap fa-2x icon"></i>
             <div className="media-body">
               <h3 className="fw-bolder">Educations</h3>
               <p className="fs-6">2016-2021</p>
               <div className="d-flex flex-row">
-                <i className="fas fa-circle pt-1"></i>
+                <i className="fa fa-dot-circle-o pt-1"></i>
                 <h5 className="fw-bold ps-2">Bachelor of Architecture</h5>
               </div>
               <p className="fs-6 ps-4">&#160;2016-2021</p>
               <div className="d-flex flex-row ps-4">
-                <i className="far fa-circle pt-1"></i>
+                <i className="fa fa-circle pt-1"></i>
                 <p className="ps-2">Islamic Azad University of Mashhad</p>
               </div>
               <p className="ps-5">Overall GPA 4.6/5 </p>
             </div>
           </div>
           <div className="custom-media media pb-5 wow bounceIn">
-            <i className="fas fa-briefcase fa-4x icon"></i>
+            <i className="fa fa-briefcase fa-2x icon"></i>
             <div className="media-body">
               <h3 className="fw-bolder">Work Experiences</h3>
               <p className="fs-6">2019-2021</p>
               <div className="media py-3">
                 <div className="media-body">
                   <div className="d-flex flex-row">
-                    <i className="fas fa-circle pt-1"></i>
+                    <i className="fa fa-dot-circle-o pt-1"></i>
                     <h5 className="fw-bold ps-2">AutoCAD Drafter</h5>
                   </div>
                   <p className="fs-6 ps-4">&#160;Oct 2021 - Present</p>
                   <div className="d-flex flex-row ps-4">
-                    <i className="far fa-circle pt-1"></i>
+                    <i className="fa fa-circle pt-1"></i>
                     <p className="ps-2">
                       Internship at Arian Engineering Group
                     </p>
@@ -77,7 +77,7 @@ const About = () => {
                     focused on Auto-cad drafting, Residential Design, etc.
                   </p>
                   <a
-                    className="ps-5"
+                    className="ps-5 text-info"
                     href="An internship program in Arian Engineering Group, mainly focused on Auto-cad drafting, Residential 
                   Design, etc."
                   >
@@ -88,12 +88,12 @@ const About = () => {
               <div className="media py-3">
                 <div className="media-body">
                   <div className="d-flex flex-row">
-                    <i className="fas fa-circle pt-1"></i>
+                    <i className="fa fa-dot-circle-o pt-1"></i>
                     <h5 className="fw-bold ps-2">Research Assistant</h5>
                   </div>
                   <p className="fs-6 ps-4">&#160;Summer of 2019</p>
                   <div className="d-flex flex-row ps-4">
-                    <i className="far fa-circle pt-1"></i>
+                    <i className="fa fa-circle pt-1"></i>
                     <p className="ps-2">
                       Internship at Islamic Azad University of Mashhad
                     </p>
@@ -107,7 +107,7 @@ const About = () => {
             </div>
           </div>
           <div className="custom-media media pb-5 wow bounceIn">
-            <i className="fas fa-drafting-compass fa-4x icon"></i>
+            <i className="fa fa-gears fa-2x icon"></i>
             <div className="media-body">
               <h3 className="fw-bolder">Skills</h3>
               <div className="row pt-3 px-3">
@@ -199,29 +199,29 @@ const About = () => {
             </div>
           </div>
           <div className="custom-media media pb-5 wow bounceIn">
-            <i className="fas fa-stamp fa-4x icon"></i>
+            <i className="fa fa-star fa-2x icon"></i>
             <div className="media-body">
               <h3 className="fw-bolder">Certificates</h3>
               <div className="media py-3">
                 <div className="media-body">
                   <div className="d-flex flex-row">
-                    <i className="fas fa-circle pt-1"></i>
+                    <i className="fa fa-dot-circle-o pt-1"></i>
                     <h5 className="fw-bold ps-2">IELTS</h5>
                   </div>
                   <p className="fs-6 ps-4">
                     &#160;Issued Nov 2019 - Expires Nov 2021
                   </p>
                   <div className="d-flex flex-row ps-4">
-                    <i className="far fa-circle pt-1"></i>
+                    <i className="fa fa-circle pt-1"></i>
                     <p className="ps-2">IRSAFAM Institute</p>
                   </div>
                   <p className="ps-5">
                     Holder of IIELTS degree with overall band score of{" "}
                   </p>
                   <a
-                    className="ps-5"
+                    className="ps-5 text-info"
                     target="”_blank”"
-                    href="./image/About me/IELTS.jpg"
+                    href="./images/About me/IELTS.jpg"
                   >
                     See credential
                   </a>
@@ -230,14 +230,14 @@ const About = () => {
               <div className="media py-3">
                 <div className="media-body">
                   <div className="d-flex flex-row">
-                    <i className="fas fa-circle pt-1"></i>
+                    <i className="fa fa-dot-circle-o pt-1"></i>
                     <h5 className="fw-bold ps-2">
                       Architecture Group Exhibition
                     </h5>
                   </div>
                   <p className="fs-6 ps-4">&#160;Issued Jul 2018</p>
                   <div className="d-flex flex-row ps-4">
-                    <i className="far fa-circle pt-1"></i>
+                    <i className="fa fa-circle pt-1"></i>
                     <p className="ps-2">Setavin Art And Architecture Network</p>
                   </div>
                   <p className="ps-5">
@@ -245,7 +245,7 @@ const About = () => {
                     group exhibition{" "}
                   </p>
                   <a
-                    className="ps-5"
+                    className="ps-5 text-info"
                     target="”_blank”"
                     href="https://setavin.com/Kimia_Karimi"
                   >
@@ -256,14 +256,14 @@ const About = () => {
               <div className="media py-3">
                 <div className="media-body">
                   <div className="d-flex flex-row">
-                    <i className="fas fa-circle pt-1"></i>
+                    <i className="fa fa-dot-circle-o pt-1"></i>
                     <h5 className="fw-bold ps-2">
                       Architecture Design Process Workshop
                     </h5>
                   </div>
                   <p className="fs-6 ps-4">&#160;Issued Sep 2017</p>
                   <div className="d-flex flex-row ps-4">
-                    <i className="far fa-circle pt-1"></i>
+                    <i className="fa fa-circle pt-1"></i>
                     <p className="ps-2">Setavin Art And Architecture Network</p>
                   </div>
                   <p className="ps-5">
@@ -271,9 +271,9 @@ const About = () => {
                     Origami in Architecture, Architectural Competitions, etc.
                   </p>
                   <a
-                    className="ps-5"
+                    className="ps-5 text-info"
                     target="”_blank”"
-                    href="./image/About me/Architectural Workshops.pdf"
+                    href="./images/About me/Architectural Workshops.pdf"
                   >
                     See credential
                   </a>
@@ -282,17 +282,17 @@ const About = () => {
             </div>
           </div>
           <div className="custom-media media pb-5 wow bounceIn">
-            <i className="fas fa-language fa-4x icon"></i>
+            <i className="fa fa-language fa-2x icon"></i>
             <div className="media-body">
               <h3 className="fw-bolder">Languages</h3>
               <div className="media py-3">
                 <div className="media-body">
                   <div className="d-flex flex-row">
-                    <i className="fas fa-circle pt-1"></i>
+                    <i className="fa fa-dot-circle-o pt-1"></i>
                     <h5 className="fw-bold ps-2">Persian</h5>
                   </div>
                   <div className="d-flex flex-row ps-4">
-                    <i className="far fa-circle pt-1"></i>
+                    <i className="fa fa-circle pt-1"></i>
                     <p className="ps-2">Native or bilingual proficiency</p>
                   </div>
                 </div>
@@ -300,11 +300,11 @@ const About = () => {
               <div className="media py-3">
                 <div className="media-body">
                   <div className="d-flex flex-row">
-                    <i className="fas fa-circle pt-1"></i>
+                    <i className="fa fa-dot-circle-o pt-1"></i>
                     <h5 className="fw-bold ps-2">English</h5>
                   </div>
                   <div className="d-flex flex-row ps-4">
-                    <i className="far fa-circle pt-1"></i>
+                    <i className="fa fa-circle pt-1"></i>
                     <p className="ps-2">Professional working proficiency</p>
                   </div>
                 </div>
@@ -312,11 +312,11 @@ const About = () => {
               <div className="media py-3">
                 <div className="media-body">
                   <div className="d-flex flex-row">
-                    <i className="fas fa-circle pt-1"></i>
+                    <i className="fa fa-dot-circle-o pt-1"></i>
                     <h5 className="fw-bold ps-2">French</h5>
                   </div>
                   <div className="d-flex flex-row ps-4">
-                    <i className="far fa-circle pt-1"></i>
+                    <i className="fa fa-circle pt-1"></i>
                     <p className="ps-2">Elementary proficiency</p>
                   </div>
                 </div>
@@ -324,33 +324,33 @@ const About = () => {
             </div>
           </div>
           <div className="custom-media media pb-5 wow bounceIn">
-            <i className="fas fa-palette fa-4x icon"></i>
+            <i className="fa fa-puzzle-piece fa-2x icon"></i>
             <div className="media-body">
               <h3 className="fw-bolder">Hobbies</h3>
               <div className="media py-3">
                 <div className="media-body">
                   <div className="d-flex flex-row">
-                    <i className="fas fa-circle pt-1"></i>
+                    <i className="fa fa-dot-circle-o pt-1"></i>
                     <p className="ps-2">Playing Tonbak</p>
                   </div>
                   <div className="d-flex flex-row">
-                    <i className="fas fa-circle pt-1"></i>
+                    <i className="fa fa-dot-circle-o pt-1"></i>
                     <p className="ps-2">Watching Movies</p>
                   </div>
                   <div className="d-flex flex-row">
-                    <i className="fas fa-circle pt-1"></i>
+                    <i className="fa fa-dot-circle-o pt-1"></i>
                     <p className="ps-2">Getting Coffee</p>
                   </div>
                   <div className="d-flex flex-row">
-                    <i className="fas fa-circle pt-1"></i>
+                    <i className="fa fa-dot-circle-o pt-1"></i>
                     <p className="ps-2">Reading Books</p>
                   </div>
                   <div className="d-flex flex-row">
-                    <i className="fas fa-circle pt-1"></i>
+                    <i className="fa fa-dot-circle-o pt-1"></i>
                     <p className="ps-2">Drawing and Painting</p>
                   </div>
                   <div className="d-flex flex-row">
-                    <i className="fas fa-circle pt-1"></i>
+                    <i className="fa fa-dot-circle-o pt-1"></i>
                     <p className="ps-2">Dancing</p>
                   </div>
                 </div>
