@@ -4,7 +4,7 @@ import Typer from "react-animated-typer";
 const About = () => {
   return (
     <Fragment>
-      <div className="col-12 text-center">
+      <div className="col-12 text-center p-5">
         <h1>About Me</h1>
       </div>
       <div className="col-12 text-center">
@@ -13,10 +13,8 @@ const About = () => {
           src="./images/My Profile Picture.jpg"
           alt="My Profile"
         />
-        <h3 className="pt-3">
-          <Typer dataText={[" C'est moi ! "]} />
-        </h3>
-        <p className="p-4 zmdi zmdi-download">
+        <Typer dataText={[" C'est moi ! "]} />
+        <p className="p-4 fa fa-download fa-1x">
           &#160;&#160;Download
           <a
             className="text-info"
