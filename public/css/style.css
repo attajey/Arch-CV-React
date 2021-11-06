@@ -168,6 +168,10 @@ img {
     cursor: pointer;
 
 }
+.img-projects:hover{
+    opacity: 0.8;
+    border-radius: 0;
+}
 .middle {
     width: 70%;
     height: auto;
@@ -279,7 +283,9 @@ img {
     border-radius: 15px;
     border: 1px solid;
     transition: all 0.5s ease;
+    cursor: pointer;
 }
+
 .img-fluid-custom {
     width: 100%;
     height: auto;
@@ -291,6 +297,22 @@ object {
     border-radius: 15px;
     height: 50rem;
 }
+
+.img-drawing {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 15px;
+    border: 1px solid;
+    text-align: center;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.img-drawing:hover {
+    opacity: 0.8;
+    border-radius: 0;
+}
+
 
 /***********Media Queries************/
 @media all and (max-width: 375px) {}
