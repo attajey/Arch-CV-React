@@ -1,7 +1,5 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-import { Breadcrumbs, BreadcrumbsItem } from "react-breadcrumbs-dynamic";
-import { NavLink } from "react-router-dom";
 
 import MainLayout from "../components/Layouts/MainLayout";
 import Home from "../components/Home/Home";
@@ -21,7 +19,6 @@ import SoftwarePrac from "../components/Projects/Fun/SoftwarePrac";
 const MainCv = (props) => {
   return (
     <MainLayout>
-      {/* <BreadcrumbsItem to="/">Main Page</BreadcrumbsItem> */}
       <Switch>
         <Route
           path="/projects/fun/software-practice"
