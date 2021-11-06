@@ -1,6 +1,5 @@
 import React, { Fragment } from "react";
 import { NavLink } from "react-router-dom";
-
 const Projects = () => {
   return (
     <Fragment>
@@ -12,48 +11,39 @@ const Projects = () => {
         <div className="row">
           <div className="col-12 col-sm-6 col-md-4 projects-items">
             <img
-              className="img-projects"
+              className="img-projects-present"
               src="./images/Projects/University Projects/1-youth cultural center.jpg"
               alt="youth Cultural Center Project"
             />
             <div className="middle">
               <h4>Youth Cultural Center</h4>
-              <NavLink
-                to="/projects/university/youth-cultural-center"
-                target="__blank"
-              >
+              <NavLink to="/projects/university/youth-cultural-center">
                 Click For Details
               </NavLink>
             </div>
           </div>
           <div className="col-12 col-sm-6 col-md-4 projects-items">
             <img
-              className="img-projects"
+              className="img-projects-present"
               src="./images/Projects/University Projects/2-resdential complex2.jpg"
               alt="Residential Complex Project"
             />
             <div className="middle">
               <h4>Residential Complex</h4>
-              <NavLink
-                to="/projects/university/residential-complex"
-                target="__blank"
-              >
+              <NavLink to="/projects/university/residential-complex">
                 Click For Details
               </NavLink>
             </div>
           </div>
           <div className="col-12 col-sm-6 col-md-4 projects-items">
             <img
-              className="img-projects"
+              className="img-projects-present"
               src="./images/Projects/University Projects/3-four star hotel.jpg"
               alt="Four Star Hotel Project"
             />
             <div className="middle">
               <h4>Four Star Hotel</h4>
-              <NavLink
-                to="/projects/university/four-star-hotel"
-                target="__blank"
-              >
+              <NavLink to="/projects/university/four-star-hotel">
                 Click For Details
               </NavLink>
             </div>
@@ -68,29 +58,26 @@ const Projects = () => {
         <div className="row ">
           <div className="col-12 col-sm-6 col-md-4 projects-items">
             <img
-              className="img-projects"
+              className="img-projects-present"
               src="./images/Projects/Researches/1-BALKHAST HOUSE_.jpg"
               alt="Balkhast House Research"
             />
             <div className="middle">
               <h4>Balkhast House</h4>
-              <NavLink to="/projects/research/balkhast-house" target="__blank">
+              <NavLink to="/projects/research/balkhast-house">
                 Click For Details
               </NavLink>
             </div>
           </div>
           <div className="col-12 col-sm-6 col-md-4 projects-items">
             <img
-              className="img-projects"
+              className="img-projects-present"
               src="./images/Projects/Researches/2-FIVE RENOVATION PROJECTS_.jpg"
               alt="Five Successful Renovation Projects"
             />
             <div className="middle">
               <h4>Five Successful Renovation Projects</h4>
-              <NavLink
-                to="/projects/research/five-renovation-projects"
-                target="__blank"
-              >
+              <NavLink to="/projects/research/five-renovation-projects">
                 Click For Details
               </NavLink>
             </div>
@@ -98,16 +85,13 @@ const Projects = () => {
 
           <div className="col-12 col-sm-6 col-md-4 projects-items">
             <img
-              className="img-projects"
+              className="img-projects-present"
               src="./images/Projects/Researches/3-Sustainable Rural Development.jpg"
               alt="Sustainable Rural Development Research"
             />
             <div className="middle">
               <h4>Sustainable Rural Development</h4>
-              <NavLink
-                to="/projects/research/sustainable-rural-development"
-                target="__blank"
-              >
+              <NavLink to="/projects/research/sustainable-rural-development">
                 Click For Details
               </NavLink>
             </div>
@@ -123,40 +107,36 @@ const Projects = () => {
         <div className="row">
           <div className="col-12 col-sm-6 col-md-4 projects-items">
             <img
-              className="img-projects"
+              className="img-projects-present"
               src="./images/Projects/Just For Fun/Drawings/Drawing.jpg"
               alt="Drawings"
             />
             <div className="middle">
               <h4>Drawings</h4>
-              <NavLink to="/projects/fun/drawings" target="__blank">
-                Click For Details
-              </NavLink>
+              <NavLink to="/projects/fun/drawings">Click For Details</NavLink>
             </div>
           </div>
           <div className="col-12 col-sm-6 col-md-4 projects-items">
             <img
-              className="img-projects"
+              className="img-projects-present"
               src="./images/Projects/Just For Fun/Sketches/Sketch.jpg"
               alt="Sketches"
             />
             <div className="middle">
               <h4>Sketches</h4>
-              <NavLink to="/projects/fun/sketches" target="__blank">
-                Click For Details
-              </NavLink>
+              <NavLink to="/projects/fun/sketches">Click For Details</NavLink>
             </div>
           </div>
 
           <div className="col-12 col-sm-6 col-md-4 projects-items">
             <img
-              className="img-projects"
+              className="img-projects-present"
               src="./images/Projects/Just For Fun/Software Practice/SOFTWARE 1.jpg"
               alt="Sketches"
             />
             <div className="middle">
               <h4>Software Practice</h4>
-              <NavLink to="/projects/fun/software-practice" target="__blank">
+              <NavLink to="/projects/fun/software-practice">
                 Click For Details
               </NavLink>
             </div>

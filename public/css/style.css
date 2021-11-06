@@ -159,6 +159,18 @@ img {
     margin: auto ;
     padding: 10px 10px;
 }
+.img-projects-present {
+    width: 75%;
+    height: auto;
+    border-radius: 15px;
+    border: 1px solid;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.img-projects-present:hover{
+    opacity: 0.8;
+    border-radius: 0;
+}
 .img-projects {
     width: 100%;
     height: auto;
@@ -166,7 +178,6 @@ img {
     border: 1px solid;
     transition: all 0.5s ease;
     cursor: pointer;
-
 }
 .img-projects:hover{
     opacity: 0.8;

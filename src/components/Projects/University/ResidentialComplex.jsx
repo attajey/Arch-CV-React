@@ -10,11 +10,13 @@ const ResidentialComplex = () => {
       <div className="container text-center">
         <div className="row">
           <div className="col-12">
-            <img
-              className="img-project-main"
-              src="../../images/Projects/University Projects/2-resdential complex2.jpg"
-              alt="Residential Complex"
-            />
+            <Zoom>
+              <img
+                className="img-project-main"
+                src="../../images/Projects/University Projects/2-resdential complex2.jpg"
+                alt="Residential Complex"
+              />
+            </Zoom>
           </div>
         </div>
       </div>

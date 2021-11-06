@@ -10,11 +10,13 @@ const FourStarHotel = () => {
       <div className="container text-center">
         <div className="row">
           <div className="col-12 ">
-            <img
-              className="img-project-main"
-              src="../../images/Projects/University Projects/3-four star hotel.jpg"
-              alt="Four Star Hotel"
-            />
+            <Zoom>
+              <img
+                className="img-project-main"
+                src="../../images/Projects/University Projects/3-four star hotel.jpg"
+                alt="Four Star Hotel"
+              />
+            </Zoom>
           </div>
         </div>
       </div>
