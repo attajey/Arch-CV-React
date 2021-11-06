@@ -23,17 +23,17 @@ const TopNav = () => {
           <ul className="navbar-nav me-auto">
             <li className="nav-item p-2">
               <NavLink
-                classNameName="nav-link "
+                className="nav-link "
                 aria-current="page"
                 to="/"
                 exact
                 activeStyle={{ color: "pink" }}
               >
-                <i class="zmdi zmdi-home p-2"></i>
+                <i class="fa fa-home p-2"></i>
                 Home
               </NavLink>{" "}
             </li>
-            <li className="nav-item dropdown px-2">
+            <li className="nav-item dropdown p-2">
               <NavLink
                 className="nav-link dropdown-toggle"
                 to="#"
@@ -42,7 +42,7 @@ const TopNav = () => {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                <i class="zmdi zmdi-laptop p-2"></i>
+                <i class="fa fa-laptop p-2"></i>
                 Projects
               </NavLink>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -51,40 +51,81 @@ const TopNav = () => {
                     All Projects
                   </NavLink>
                 </li>
+                <hr className="dropdown-divider" />
                 <li>
-                  <a className="dropdown-item" href="#">
-                    Another action
-                  </a>
+                  <NavLink
+                    className="dropdown-item"
+                    to="/youth-cultural-center"
+                  >
+                    Youth Cultural Center
+                  </NavLink>
                 </li>
                 <li>
-                  <hr className="dropdown-divider" />
+                  <NavLink className="dropdown-item" to="/residential-complex">
+                    Residential Complex
+                  </NavLink>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#">
-                    Something else here
-                  </a>
+                  <NavLink className="dropdown-item" to="/four-star-hotel">
+                    Four Star Hotel
+                  </NavLink>
+                </li>
+                <hr className="dropdown-divider" />
+                <li>
+                  <NavLink className="dropdown-item" to="/balkhast-house">
+                    Balkhast House
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink className="dropdown-item" to="/five-renovation">
+                    Five Renovation Projects
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    className="dropdown-item"
+                    to="/sustainable-rural-dev"
+                  >
+                    Sustainable Rural Development
+                  </NavLink>
+                </li>
+                <hr className="dropdown-divider" />
+                <li>
+                  <NavLink className="dropdown-item" to="/drawings">
+                    Drawings
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink className="dropdown-item" to="/sketches">
+                    Sketches
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink className="dropdown-item" to="/software-prac">
+                    Software Practice
+                  </NavLink>
                 </li>
               </ul>
             </li>
             <li className="nav-item p-2">
               <NavLink
-                classNameName="nav-link"
+                className="nav-link"
                 to="/about"
                 exact
                 activeStyle={{ color: "pink" }}
               >
-                <i class="zmdi zmdi-info p-2"></i>
+                <i class="fa fa-info p-2"></i>
                 About Me
               </NavLink>{" "}
             </li>
             <li className="nav-item p-2">
               <NavLink
-                classNameName="nav-link"
+                className="nav-link"
                 to="/contact"
                 exact
                 activeStyle={{ color: "pink" }}
               >
-                <i class="zmdi zmdi-phone-in-talk p-2"></i>
+                <i class="fa fa-phone p-2"></i>
                 Contact Me
               </NavLink>
             </li>

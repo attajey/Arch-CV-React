@@ -5,7 +5,7 @@ const Projects = () => {
     <Fragment>
       <div className="container-fluid text-center py-5">
         <div className="row">
-          <i class="zmdi zmdi-laptop-mac"></i>
+          <i class="fa fa-bank fa-3x pb-4"></i>
           <h2>University Projects</h2>
         </div>
         <div className="row">
@@ -52,8 +52,7 @@ const Projects = () => {
         </div>
 
         <div className="row ">
-          <i class="zmdi zmdi-search"></i>
-
+          <i class="fa fa-search fa-3x pb-4"></i>
           <h2>Researches</h2>
         </div>
         <div className="row ">
@@ -104,7 +103,7 @@ const Projects = () => {
         </div>
 
         <div className="row ">
-          <i class="zmdi zmdi-puzzle-piece"></i>
+          <i class="fa fa-puzzle-piece fa-3x pb-4"></i>
 
           <h2>For Fun</h2>
         </div>

@@ -6,15 +6,27 @@
     font-weight: normal;
     font-style: normal;
 } */
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf) format("truetype"),
+    url(../fonts/Roboto/Roboto-Regular.woff) format("woff"),
+    url(../fonts/Roboto/Roboto-Regular.eot) format("eot");
+    font-weight: normal;
+    font-style: normal;
+}
 html {
     overflow-x: hidden;
+    background-color: #212529;
 }
 body {
     margin: 0;
     padding: 0;
-    font-family:'Courier New', Courier, monospace;
+    font-family: Roboto-Regular, 'Courier New', Courier, monospace;
     box-sizing: border-box;
+    overflow-x: hidden;
+
 }
+
 
 .background-gradient {
     background: linear-gradient(75deg, #705f9b, #e8d1d8, #d88c86);
@@ -128,8 +140,14 @@ img {
     border-color: pink;
     border-radius: 0px;
 }
-.nav-link-custom:hover {
-    color: black !important;
+.nav-link {
+    transition: all 0.7s ease !important;
+    box-sizing: border-box;
+    font-size: 1.1rem;
+}
+
+.nav-link:hover {
+    color: pink !important;
 }
 
 .projects-items {
@@ -227,6 +245,30 @@ img {
 }
 .social-icons:hover {
     transform: scale(1.2,1.2);
+}
+
+.list-unstyled{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-quick-link {
+    border: 1px solid transparent;
+    border-bottom: 2px solid black;
+    padding: 10px 0px;
+    transition: all 0.5s ease;
+}
+.footer-quick-link:hover{
+    border-radius: 100%;
+    border-bottom: 2px solid pink;
+}
+.social-btn:hover {
+    background-color: pink;
+}
+.btn:hover {
+    color: pink;
+    background-color: black;
 }
 /***********Media Queries************/
 @media all and (max-width: 375px) {}
