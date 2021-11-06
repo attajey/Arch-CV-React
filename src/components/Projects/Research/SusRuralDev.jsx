@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 
 const SusRuralDev = () => {
+  document.title = "Sustainable Rural Development";
   return (
     <Fragment>
       <div className="row text-center p-4">

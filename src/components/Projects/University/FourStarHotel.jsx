@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import Zoom from "react-medium-image-zoom";
 
 const FourStarHotel = () => {
+  document.title = "Four Star Hotel Design";
   return (
     <Fragment>
       <div className="row text-center p-4">

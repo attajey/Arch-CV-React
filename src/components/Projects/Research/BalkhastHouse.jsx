@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 
 const BalkhastHouse = () => {
+  document.title = "Balkhast House";
   return (
     <Fragment>
       <div className="row text-center p-4">

@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import Typer from "react-animated-typer";
 
 const About = () => {
+  document.title = "About Me";
   return (
     <Fragment>
       <div className="col-12 text-center p-5">

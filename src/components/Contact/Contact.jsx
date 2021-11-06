@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 
 const About = () => {
+  document.title = "Contact Me";
   return (
     <Fragment>
       <div className="row p-5">

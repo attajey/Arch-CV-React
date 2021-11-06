@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 
 const FiveRenov = () => {
+  document.title = "Five Successful Renovation Projects";
   return (
     <Fragment>
       <div className="row text-center p-4">

@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import { NavLink } from "react-router-dom";
 const Projects = () => {
+  document.title = "Projects";
   return (
     <Fragment>
       <div className="container-fluid text-center py-5">

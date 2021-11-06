@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import Zoom from "react-medium-image-zoom";
 
 const Drawings = () => {
+  document.title = "Drawings";
   return (
     <Fragment>
       <div className="row text-center p-4">

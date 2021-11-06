@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import Zoom from "react-medium-image-zoom";
 
 const ResidentialComplex = () => {
+  document.title = "Residential Complex";
   return (
     <Fragment>
       <div className="row text-center p-4">

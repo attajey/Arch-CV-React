@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import Zoom from "react-medium-image-zoom";
 const YouthCulCenter = () => {
+  document.title = "Youth Cultural Center";
   return (
     <Fragment>
       <div className="row text-center p-4">

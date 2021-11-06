@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import Typer from "react-animated-typer";
-const Home = () => {
+const Home = ({ title }) => {
+  document.title = "Home";
   return (
     <Fragment>
       <section className="row text-center">
