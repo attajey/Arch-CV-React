@@ -99,8 +99,9 @@ const About = () => {
                     </p>
                   </div>
                   <p className="ps-5">
-                    Researched on sustainability of rural area's architecture
-                    during 1930-1980, supervised by my university professor
+                    Voluntarily researched on sustainability of rural area's
+                    architecture during 1930-1980, supervised by my university
+                    professor
                   </p>
                 </div>
               </div>
@@ -331,27 +332,31 @@ const About = () => {
                 <div className="media-body">
                   <div className="d-flex flex-row">
                     <i className="fa fa-dot-circle-o pt-1"></i>
-                    <p className="ps-2">Playing Tonbak</p>
+                    <p className="ps-2">
+                      Playing Tonbak ( An Iranian goblet drum )
+                    </p>
                   </div>
                   <div className="d-flex flex-row">
                     <i className="fa fa-dot-circle-o pt-1"></i>
-                    <p className="ps-2">Watching Movies</p>
+                    <p className="ps-2">
+                      Watching Documentaries ( History, Art, Science )
+                    </p>
                   </div>
                   <div className="d-flex flex-row">
                     <i className="fa fa-dot-circle-o pt-1"></i>
-                    <p className="ps-2">Getting Coffee</p>
+                    <p className="ps-2">
+                      Reading Books ( Architecture, History, Classic Novel )
+                    </p>
                   </div>
                   <div className="d-flex flex-row">
                     <i className="fa fa-dot-circle-o pt-1"></i>
-                    <p className="ps-2">Reading Books</p>
+                    <p className="ps-2">
+                      Drawing ( Hand-drawing on paper or canvas )
+                    </p>
                   </div>
                   <div className="d-flex flex-row">
                     <i className="fa fa-dot-circle-o pt-1"></i>
-                    <p className="ps-2">Drawing and Painting</p>
-                  </div>
-                  <div className="d-flex flex-row">
-                    <i className="fa fa-dot-circle-o pt-1"></i>
-                    <p className="ps-2">Dancing</p>
+                    <p className="ps-2">Dancing and Gymnastics</p>
                   </div>
                 </div>
               </div>
