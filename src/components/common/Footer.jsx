@@ -69,7 +69,7 @@ const Footer = () => {
       </section>
       <hr />
 
-      <section className="row text-center pt-4">
+      <section className="row text-center">
         <div className="col-12">
           <a
             className="text-info"
