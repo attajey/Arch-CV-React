@@ -13,7 +13,9 @@ const About = () => {
           src="./images/My Profile Picture.jpg"
           alt="My Profile"
         />
-        <Typer dataText={[" C'est moi ! "]} />
+        <div className="pt-4">
+          <Typer dataText={[" C'est moi ! "]} />
+        </div>
         <p className="p-4 fa fa-download fa-1x">
           &#160;&#160;Download
           <a

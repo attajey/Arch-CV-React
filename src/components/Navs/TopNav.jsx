@@ -57,28 +57,33 @@ const TopNav = () => {
                     className="dropdown-item"
                     to="/youth-cultural-center"
                   >
-                    Youth Cultural Center
+                    <i class="fa fa-bank"></i>
+                    &#160;Youth Cultural Center
                   </NavLink>
                 </li>
                 <li>
                   <NavLink className="dropdown-item" to="/residential-complex">
-                    Residential Complex
+                    <i class="fa fa-bank"></i>
+                    &#160;Residential Complex
                   </NavLink>
                 </li>
                 <li>
                   <NavLink className="dropdown-item" to="/four-star-hotel">
-                    Four Star Hotel
+                    <i class="fa fa-bank"></i>
+                    &#160;Four Star Hotel
                   </NavLink>
                 </li>
                 <hr className="dropdown-divider" />
                 <li>
                   <NavLink className="dropdown-item" to="/balkhast-house">
-                    Balkhast House
+                    <i class="fa fa-search"></i>
+                    &#160;Balkhast House
                   </NavLink>
                 </li>
                 <li>
                   <NavLink className="dropdown-item" to="/five-renovation">
-                    Five Renovation Projects
+                    <i class="fa fa-search"></i>
+                    &#160;Five Renovation Projects
                   </NavLink>
                 </li>
                 <li>
@@ -86,23 +91,27 @@ const TopNav = () => {
                     className="dropdown-item"
                     to="/sustainable-rural-dev"
                   >
-                    Sustainable Rural Development
+                    <i class="fa fa-search"></i>
+                    &#160;Sustainable Rural Development
                   </NavLink>
                 </li>
                 <hr className="dropdown-divider" />
                 <li>
                   <NavLink className="dropdown-item" to="/drawings">
-                    Drawings
+                    <i class="fa fa-puzzle-piece"></i>
+                    &#160;Drawings
                   </NavLink>
                 </li>
                 <li>
                   <NavLink className="dropdown-item" to="/sketches">
-                    Sketches
+                    <i class="fa fa-puzzle-piece"></i>
+                    &#160;Sketches
                   </NavLink>
                 </li>
                 <li>
                   <NavLink className="dropdown-item" to="/software-prac">
-                    Software Practice
+                    <i class="fa fa-puzzle-piece"></i>
+                    &#160;Software Practice
                   </NavLink>
                 </li>
               </ul>
