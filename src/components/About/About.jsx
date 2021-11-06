@@ -19,19 +19,9 @@ const About = () => {
         </div>
         <a href="./images/About me/Karimi Protfolio.pdf" target="__blank">
           <button className="btn btn-dark fa fa-download fa-1x">
-            &#160;&#160;Download My CV
+            &#160;&#160;Download My Portfolio
           </button>
         </a>
-        {/* <p className="p-4 fa fa-download fa-1x">
-          &#160;&#160;Download
-          <a
-            className="text-info fs-5"
-            href="./images/About me/Karimi Protfolio.pdf"
-            target="__blank"
-          >
-            &#160;&#160;My Portfolio
-          </a>
-        </p> */}
       </div>
       <div className="row pt-5">
         <div className="col-12 px-5 fs-5">
@@ -49,7 +39,7 @@ const About = () => {
                 <i className="fa fa-circle pt-1"></i>
                 <p className="ps-2">Islamic Azad University of Mashhad</p>
               </div>
-              <p className="ps-5">Overall GPA 4.6/5 </p>
+              <p className="ps-5">Overall GPA 3.7/4 </p>
             </div>
           </div>
           <div className="custom-media media pb-5 wow bounceIn">

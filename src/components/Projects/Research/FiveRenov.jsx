@@ -25,7 +25,7 @@ const FiveRenov = () => {
             target="__blank"
             download
           >
-            Download This Document !
+            Download This Document
           </a>
         </div>
         <div className="row">

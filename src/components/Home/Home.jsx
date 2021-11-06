@@ -8,7 +8,7 @@ const Home = ({ title }) => {
         <div className="col-12 p-0">
           <h1 className="pt-5">WELCOME</h1>
           <h3>
-            <div className="pt-3">
+            <div className="pt-3 fs-3">
               <Typer
                 dataText={[
                   "I'm Kimia Karimi",
@@ -21,7 +21,7 @@ const Home = ({ title }) => {
           <div className="row">
             <div className="col-12 col-md-2"></div>
             <div className="col-12 col-md-8">
-              <p className="pt-5 px-3 lh-lg">
+              <p className="pt-5 px-3 lh-lg fs-5">
                 A fresh graduate, a highly organized and efficient individual
                 and group member, an art enthusiastic, a curios student who is
                 eager to learn with hopes of using sustainable design as a way

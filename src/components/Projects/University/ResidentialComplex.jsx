@@ -152,18 +152,24 @@ const ResidentialComplex = () => {
             role="document"
           >
             <div className="modal-content">
-              <div className="row align-self-center">
-                <div className="col-4">
-                  <button
-                    type="button"
-                    className="btn btn-dark text-right m-2"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  >
-                    <span aria-hidden="true">
-                      <i className="fa fa-times-circle fa-2x "></i>
-                    </span>
-                  </button>
+              <div className="container bg-dark">
+                <div className="row align-self-center">
+                  <div className="col-2 text-start pt-2">
+                    <button
+                      type="button"
+                      className="m-0 p-0 border-0 bg-transparent"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">
+                        <i className="fa fa-times-circle fa-2x text-white"></i>
+                      </span>
+                    </button>
+                  </div>
+                  <div className="col-8 text-center p-2 ">
+                    <span>Click on the picture to zoom in</span>
+                  </div>
+                  <div className="col-2"></div>
                 </div>
               </div>
               <div

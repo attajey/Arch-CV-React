@@ -25,7 +25,7 @@ const Footer = () => {
             </a>
             <a
               className="btn btn-outline-light btn-floating m-1 social-btn"
-              href="https://www.linkedin.com/in/kimia-karimi-42b702193/"
+              href="https://www.linkedin.com/in/kimiakarimi/"
               target="__blank"
               role="button"
             >

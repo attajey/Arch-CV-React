@@ -99,7 +99,7 @@ const About = () => {
               data-toggle="tooltip"
               data-placement="bottom"
               title="Linkedin"
-              href="https://www.linkedin.com/in/kimia-karimi-42b702193/"
+              href="https://www.linkedin.com/in/kimiakarimi/"
               target="__blank"
             >
               <i className="fa fa-linkedin fa-2x social-icons"></i>
