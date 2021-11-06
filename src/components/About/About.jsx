@@ -13,27 +13,24 @@ const About = () => {
           src="./images/My Profile Picture.jpg"
           alt="My Profile"
         />
-        <div className="pt-4">
+        <div className="p-4">
           <Typer dataText={[" C'est moi ! "]} />
         </div>
-        <p className="p-4 fa fa-download fa-1x">
+        <a href="./images/About me/Karimi Protfolio.pdf" target="__blank">
+          <button className="btn btn-dark fa fa-download fa-1x">
+            &#160;&#160;Download My CV
+          </button>
+        </a>
+        {/* <p className="p-4 fa fa-download fa-1x">
           &#160;&#160;Download
           <a
-            className="text-info"
-            href="./images/About me/KARIMI CV.pdf"
-            target="__blank"
-          >
-            &#160;&#160;My CV
-          </a>
-          &#160;&#160;And
-          <a
-            className="text-info"
+            className="text-info fs-5"
             href="./images/About me/Karimi Protfolio.pdf"
             target="__blank"
           >
             &#160;&#160;My Portfolio
           </a>
-        </p>
+        </p> */}
       </div>
       <div className="row pt-5">
         <div className="col-12 px-5 fs-5">

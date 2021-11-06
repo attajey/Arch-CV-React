@@ -36,7 +36,7 @@ const TopNav = () => {
             <li className="nav-item dropdown p-2">
               <NavLink
                 className="nav-link dropdown-toggle"
-                to="#"
+                to="/projects"
                 id="navbarDropdown"
                 role="button"
                 data-bs-toggle="dropdown"
