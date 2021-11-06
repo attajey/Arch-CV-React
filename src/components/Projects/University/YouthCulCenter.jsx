@@ -1,6 +1,28 @@
-import React, { Fragment } from "react";
-
+import React, { Fragment, useState, useRef, useEffect } from "react";
+import Zoom from "react-medium-image-zoom";
 const YouthCulCenter = () => {
+  //   const [getHeight, setHeight] = useState("");
+  //   const [getWidth, setWidth] = useState("");
+
+  //   const imgRef = useRef(null);
+  //   let initialHeight = 0;
+  //   let initialWidth = 0;
+
+  //   useEffect(() => {
+  //     initialHeight = imgRef.current.clientHeight;
+  //     initialWidth = imgRef.current.clientWidth;
+  //   });
+
+  //   const handleZoomIn = () => {
+  //     const height = imgRef.current.clientHeight;
+  //     const width = imgRef.current.clientWidth;
+  //     setHeight(height + 10);
+  //     setWidth(width + 10);
+  //   };
+  //   const handleZoomOut = () => {
+  //     const height = initialHeight;
+  //   };
+
   return (
     <Fragment>
       <div className="row text-center p-4">
@@ -8,11 +30,13 @@ const YouthCulCenter = () => {
       </div>
       <div className="row text-center">
         <div className="col-12">
-          <img
-            className="img-project-main"
-            src="../../images/Projects/University Projects/1-youth cultural center.jpg"
-            alt="Youth Cultural Center"
-          />
+          <Zoom>
+            <img
+              className="img-project-main"
+              src="../../images/Projects/University Projects/1-youth cultural center.jpg"
+              alt="Youth Cultural Center"
+            />
+          </Zoom>
         </div>
       </div>
       <div className="container px-2 py-3">
@@ -231,12 +255,15 @@ const YouthCulCenter = () => {
                     className="carousel-item active"
                     id="carousel-../../images/"
                   >
-                    <img
-                      className="img-fluid-custom"
-                      src="../../images/Projects/University Projects/Youth Cultural Center/1-1 Description.jpg"
-                      alt="Description"
-                    />
+                    <Zoom>
+                      <img
+                        className="img-fluid-custom"
+                        src="../../images/Projects/University Projects/Youth Cultural Center/1-1 Description.jpg"
+                        alt="Description"
+                      />
+                    </Zoom>
                   </div>
+
                   <div className="carousel-item">
                     <img
                       className="img-fluid-custom"
