@@ -55,33 +55,45 @@ const TopNav = () => {
                 <li>
                   <NavLink
                     className="dropdown-item"
-                    to="/youth-cultural-center"
+                    to="/university/youth-cultural-center"
                   >
                     <i class="fa fa-bank"></i>
                     &#160;Youth Cultural Center
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink className="dropdown-item" to="/residential-complex">
+                  <NavLink
+                    className="dropdown-item"
+                    to="/university/residential-complex"
+                  >
                     <i class="fa fa-bank"></i>
                     &#160;Residential Complex
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink className="dropdown-item" to="/four-star-hotel">
+                  <NavLink
+                    className="dropdown-item"
+                    to="/university/four-star-hotel"
+                  >
                     <i class="fa fa-bank"></i>
                     &#160;Four Star Hotel
                   </NavLink>
                 </li>
                 <hr className="dropdown-divider" />
                 <li>
-                  <NavLink className="dropdown-item" to="/balkhast-house">
+                  <NavLink
+                    className="dropdown-item"
+                    to="/research/balkhast-house"
+                  >
                     <i class="fa fa-search"></i>
                     &#160;Balkhast House
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink className="dropdown-item" to="/five-renovation">
+                  <NavLink
+                    className="dropdown-item"
+                    to="/research/five-renovation-projects"
+                  >
                     <i class="fa fa-search"></i>
                     &#160;Five Renovation Projects
                   </NavLink>
@@ -89,7 +101,7 @@ const TopNav = () => {
                 <li>
                   <NavLink
                     className="dropdown-item"
-                    to="/sustainable-rural-dev"
+                    to="/research/sustainable-rural-development"
                   >
                     <i class="fa fa-search"></i>
                     &#160;Sustainable Rural Development
@@ -97,19 +109,22 @@ const TopNav = () => {
                 </li>
                 <hr className="dropdown-divider" />
                 <li>
-                  <NavLink className="dropdown-item" to="/drawings">
+                  <NavLink className="dropdown-item" to="/fun/drawings">
                     <i class="fa fa-puzzle-piece"></i>
                     &#160;Drawings
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink className="dropdown-item" to="/sketches">
+                  <NavLink className="dropdown-item" to="/fun/sketches">
                     <i class="fa fa-puzzle-piece"></i>
                     &#160;Sketches
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink className="dropdown-item" to="/software-prac">
+                  <NavLink
+                    className="dropdown-item"
+                    to="/fun/software-practice"
+                  >
                     <i class="fa fa-puzzle-piece"></i>
                     &#160;Software Practice
                   </NavLink>
