@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import { NavLink } from "react-router-dom";
 
 const Projects = () => {
   return (
@@ -17,9 +18,12 @@ const Projects = () => {
             />
             <div className="middle">
               <h4>Youth Cultural Center</h4>
-              <a href="./youth-cultural-center.html" target="__blank">
+              <NavLink
+                to="/projects/university/youth-cultural-center"
+                target="__blank"
+              >
                 Click For Details
-              </a>
+              </NavLink>
             </div>
           </div>
           <div className="col-12 col-sm-6 col-md-4 projects-items">
@@ -30,9 +34,12 @@ const Projects = () => {
             />
             <div className="middle">
               <h4>Residential Complex</h4>
-              <a href="./residential-complex.html" target="__blank">
+              <NavLink
+                to="/projects/university/residential-complex"
+                target="__blank"
+              >
                 Click For Details
-              </a>
+              </NavLink>
             </div>
           </div>
           <div className="col-12 col-sm-6 col-md-4 projects-items">
@@ -43,9 +50,12 @@ const Projects = () => {
             />
             <div className="middle">
               <h4>Four Star Hotel</h4>
-              <a href="./four-star-hotel.html" target="__blank">
+              <NavLink
+                to="/projects/university/four-star-hotel"
+                target="__blank"
+              >
                 Click For Details
-              </a>
+              </NavLink>
             </div>
           </div>
           <hr className="mt-3" />
@@ -64,9 +74,9 @@ const Projects = () => {
             />
             <div className="middle">
               <h4>Balkhast House</h4>
-              <a href="./balkhast-house.html" target="__blank">
+              <NavLink to="/projects/research/balkhast-house" target="__blank">
                 Click For Details
-              </a>
+              </NavLink>
             </div>
           </div>
           <div className="col-12 col-sm-6 col-md-4 projects-items">
@@ -77,12 +87,12 @@ const Projects = () => {
             />
             <div className="middle">
               <h4>Five Successful Renovation Projects</h4>
-              <a
-                href="./five-successful-renovation-projects.html"
+              <NavLink
+                to="/projects/research/five-renovation-projects"
                 target="__blank"
               >
                 Click For Details
-              </a>
+              </NavLink>
             </div>
           </div>
 
@@ -94,9 +104,12 @@ const Projects = () => {
             />
             <div className="middle">
               <h4>Sustainable Rural Development</h4>
-              <a href="./sustainable-rural-development.html" target="__blank">
+              <NavLink
+                to="/projects/research/sustainable-rural-development"
+                target="__blank"
+              >
                 Click For Details
-              </a>
+              </NavLink>
             </div>
           </div>
           <hr className="mt-3" />
@@ -116,9 +129,9 @@ const Projects = () => {
             />
             <div className="middle">
               <h4>Drawings</h4>
-              <a href="./drawings.html" target="__blank">
+              <NavLink to="/projects/fun/drawings" target="__blank">
                 Click For Details
-              </a>
+              </NavLink>
             </div>
           </div>
           <div className="col-12 col-sm-6 col-md-4 projects-items">
@@ -129,9 +142,9 @@ const Projects = () => {
             />
             <div className="middle">
               <h4>Sketches</h4>
-              <a href="./sketches.html" target="__blank">
+              <NavLink to="/projects/fun/sketches" target="__blank">
                 Click For Details
-              </a>
+              </NavLink>
             </div>
           </div>
 
@@ -143,9 +156,9 @@ const Projects = () => {
             />
             <div className="middle">
               <h4>Software Practice</h4>
-              <a href="./software-practice.html" target="__blank">
+              <NavLink to="/projects/fun/software-practice" target="__blank">
                 Click For Details
-              </a>
+              </NavLink>
             </div>
           </div>
           <hr className="mt-3" />

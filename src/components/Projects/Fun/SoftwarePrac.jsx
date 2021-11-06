@@ -77,18 +77,22 @@ const SoftwarePrac = () => {
                 </ol>
                 <div className="carousel-inner" id="carousel-inner-id">
                   <div className="carousel-item active" id="carousel-images">
-                    <img
-                      className="img-fluid"
-                      src="../../images/Projects/Just For Fun/Software Practice/SOFTWARE 1.jpg"
-                      alt="Software 1"
-                    />
+                    <Zoom>
+                      <img
+                        className="img-fluid"
+                        src="../../images/Projects/Just For Fun/Software Practice/SOFTWARE 1.jpg"
+                        alt="Software 1"
+                      />
+                    </Zoom>
                   </div>
                   <div className="carousel-item">
-                    <img
-                      className="img-fluid"
-                      src="../../images/Projects/Just For Fun/Software Practice/SOFTWARE 2.jpg"
-                      alt="Software 2"
-                    />
+                    <Zoom>
+                      <img
+                        className="img-fluid"
+                        src="../../images/Projects/Just For Fun/Software Practice/SOFTWARE 2.jpg"
+                        alt="Software 2"
+                      />
+                    </Zoom>
                   </div>
                 </div>
                 <a

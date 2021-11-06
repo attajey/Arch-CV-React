@@ -76,7 +76,10 @@ const Footer = () => {
             href="https://attajey.github.io/My-CV/"
             target="__blank"
           >
-            <p>COPYLEFT &nbsp;2021 &nbsp;ATTA JIROFTY</p>
+            <p className="btn btn-dark">
+              <i className="fa fa-copyright fa-flip-horizontal"></i>
+              &nbsp;COPYLEFT &nbsp;2021 &nbsp;ATTA JIROFTY
+            </p>
           </a>
         </div>
       </section>

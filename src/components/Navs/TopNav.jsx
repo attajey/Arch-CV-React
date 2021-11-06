@@ -47,7 +47,7 @@ const TopNav = () => {
               </NavLink>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
-                  <NavLink className="dropdown-item" to="/projects">
+                  <NavLink className="dropdown-item" to="/projects" exact>
                     All Projects
                   </NavLink>
                 </li>

@@ -264,6 +264,7 @@ img {
 .footer-quick-link:hover{
     border-radius: 100%;
     border-bottom: 2px solid pink;
+    color: pink;
 }
 .social-btn:hover {
     background-color: pink;
