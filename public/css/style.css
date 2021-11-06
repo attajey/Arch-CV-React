@@ -286,6 +286,11 @@ img {
     overflow-x: auto;
 }
 
+object {
+    width: 100%;
+    border-radius: 15px;
+    height: 50rem;
+}
 
 /***********Media Queries************/
 @media all and (max-width: 375px) {}
