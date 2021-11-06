@@ -1,28 +1,6 @@
-import React, { Fragment, useState, useRef, useEffect } from "react";
+import React, { Fragment } from "react";
 import Zoom from "react-medium-image-zoom";
 const YouthCulCenter = () => {
-  //   const [getHeight, setHeight] = useState("");
-  //   const [getWidth, setWidth] = useState("");
-
-  //   const imgRef = useRef(null);
-  //   let initialHeight = 0;
-  //   let initialWidth = 0;
-
-  //   useEffect(() => {
-  //     initialHeight = imgRef.current.clientHeight;
-  //     initialWidth = imgRef.current.clientWidth;
-  //   });
-
-  //   const handleZoomIn = () => {
-  //     const height = imgRef.current.clientHeight;
-  //     const width = imgRef.current.clientWidth;
-  //     setHeight(height + 10);
-  //     setWidth(width + 10);
-  //   };
-  //   const handleZoomOut = () => {
-  //     const height = initialHeight;
-  //   };
-
   return (
     <Fragment>
       <div className="row text-center p-4">
@@ -41,7 +19,7 @@ const YouthCulCenter = () => {
       </div>
       <div className="container px-2 py-3">
         <hr />
-        <h2 className="text-center pb-3">images/ Gallery</h2>
+        <h2 className="text-center text-uppercase pb-3">Images Gallery</h2>
         <div
           className="row d-flex flex-wrap align-items-center px-2 "
           data-bs-toggle="modal"
@@ -184,7 +162,7 @@ const YouthCulCenter = () => {
           aria-hidden="true"
         >
           <div
-            className="modal-dialog modal-dialog-centered modal-xl"
+            className="modal-dialog modal-dialog-centered modal-lg"
             role="document"
           >
             <div className="modal-content">
@@ -192,34 +170,12 @@ const YouthCulCenter = () => {
                 <div className="col-4">
                   <button
                     type="button"
-                    className="close text-right p-2"
+                    className="btn btn-dark text-right m-2"
                     data-bs-dismiss="modal"
                     aria-label="Close"
                   >
                     <span aria-hidden="true">
                       <i className="fa fa-times-circle fa-2x close-icon"></i>
-                    </span>
-                  </button>
-                </div>
-                <div className="col-4">
-                  <button
-                    type="button"
-                    className="close text-right p-2"
-                    onclick="zoomIn()"
-                  >
-                    <span aria-hidden="true">
-                      <i className="fa fa-search-plus fa-2x close-icon"></i>
-                    </span>
-                  </button>
-                </div>
-                <div className="col-4">
-                  <button
-                    type="button"
-                    className=" close text-right p-2"
-                    onclick="zoomOut()"
-                  >
-                    <span aria-hidden="true">
-                      <i className="fa fa-search-minus fa-2x close-icon"></i>
                     </span>
                   </button>
                 </div>
@@ -257,7 +213,7 @@ const YouthCulCenter = () => {
                   >
                     <Zoom>
                       <img
-                        className="img-fluid-custom"
+                        className="img-fluid"
                         src="../../images/Projects/University Projects/Youth Cultural Center/1-1 Description.jpg"
                         alt="Description"
                       />
@@ -265,88 +221,113 @@ const YouthCulCenter = () => {
                   </div>
 
                   <div className="carousel-item">
-                    <img
-                      className="img-fluid-custom"
-                      src="../../images/Projects/University Projects/Youth Cultural Center/1-2 Design Process.jpg"
-                      alt="Design Process"
-                    />
+                    <Zoom>
+                      <img
+                        className="img-fluid"
+                        src="../../images/Projects/University Projects/Youth Cultural Center/1-2 Design Process.jpg"
+                        alt="Design Process"
+                      />
+                    </Zoom>
                   </div>
                   <div className="carousel-item">
-                    <img
-                      className="img-fluid"
-                      src="../../images/Projects/University Projects/Youth Cultural Center/1-3 Design Process.jpg"
-                      alt="Design Process"
-                    />
+                    <Zoom>
+                      <img
+                        className="img-fluid"
+                        src="../../images/Projects/University Projects/Youth Cultural Center/1-3 Design Process.jpg"
+                        alt="Design Process"
+                      />
+                    </Zoom>
                   </div>
                   <div className="carousel-item">
-                    <img
-                      className="img-fluid"
-                      src="../../images/Projects/University Projects/Youth Cultural Center/1-4 Design Process.jpg"
-                      alt="Design Process"
-                    />
+                    <Zoom>
+                      <img
+                        className="img-fluid"
+                        src="../../images/Projects/University Projects/Youth Cultural Center/1-4 Design Process.jpg"
+                        alt="Design Process"
+                      />
+                    </Zoom>
                   </div>
                   <div className="carousel-item">
-                    <img
-                      className="img-fluid"
-                      src="../../images/Projects/University Projects/Youth Cultural Center/1-5 Design Process.jpg"
-                      alt="Design Process"
-                    />
+                    <Zoom>
+                      <img
+                        className="img-fluid"
+                        src="../../images/Projects/University Projects/Youth Cultural Center/1-5 Design Process.jpg"
+                        alt="Design Process"
+                      />
+                    </Zoom>
                   </div>
                   <div className="carousel-item">
-                    <img
-                      className="img-fluid"
-                      src="../../images/Projects/University Projects/Youth Cultural Center/1-6 Design Process.jpg"
-                      alt="Design Process"
-                    />
+                    <Zoom>
+                      <img
+                        className="img-fluid"
+                        src="../../images/Projects/University Projects/Youth Cultural Center/1-6 Design Process.jpg"
+                        alt="Design Process"
+                      />
+                    </Zoom>
                   </div>
                   <div className="carousel-item">
-                    <img
-                      className="img-fluid"
-                      src="../../images/Projects/University Projects/Youth Cultural Center/1-7 Site Plan.jpg"
-                      alt="Site Plan"
-                    />
+                    <Zoom>
+                      ≈
+                      <img
+                        className="img-fluid"
+                        src="../../images/Projects/University Projects/Youth Cultural Center/1-7 Site Plan.jpg"
+                        alt="Site Plan"
+                      />
+                    </Zoom>
                   </div>
                   <div className="carousel-item">
-                    <img
-                      className="img-fluid"
-                      src="../../images/Projects/University Projects/Youth Cultural Center/1-8 Ground Floor+ First Floor plans.jpg"
-                      alt="Ground Floor + First Floor Plans"
-                    />
+                    <Zoom>
+                      <img
+                        className="img-fluid"
+                        src="../../images/Projects/University Projects/Youth Cultural Center/1-8 Ground Floor+ First Floor plans.jpg"
+                        alt="Ground Floor + First Floor Plans"
+                      />
+                    </Zoom>
                   </div>
                   <div className="carousel-item">
-                    <img
-                      className="img-fluid"
-                      src="../../images/Projects/University Projects/Youth Cultural Center/1-9 Basement +Roof plans.jpg"
-                      alt="Basement + Roof Plans"
-                    />
+                    <Zoom>
+                      <img
+                        className="img-fluid"
+                        src="../../images/Projects/University Projects/Youth Cultural Center/1-9 Basement +Roof plans.jpg"
+                        alt="Basement + Roof Plans"
+                      />
+                    </Zoom>
                   </div>
                   <div className="carousel-item">
-                    <img
-                      className="img-fluid"
-                      src="../../images/Projects/University Projects/Youth Cultural Center/1-10 Elevations +Sections.jpg"
-                      alt="Elevetions + Sections"
-                    />
+                    <Zoom>
+                      <img
+                        className="img-fluid"
+                        src="../../images/Projects/University Projects/Youth Cultural Center/1-10 Elevations +Sections.jpg"
+                        alt="Elevetions + Sections"
+                      />
+                    </Zoom>
                   </div>
                   <div className="carousel-item">
-                    <img
-                      className="img-fluid"
-                      src="../../images/Projects/University Projects/Youth Cultural Center/1-11 Phase two.jpg"
-                      alt="Phase Two"
-                    />
+                    <Zoom>
+                      <img
+                        className="img-fluid"
+                        src="../../images/Projects/University Projects/Youth Cultural Center/1-11 Phase two.jpg"
+                        alt="Phase Two"
+                      />
+                    </Zoom>
                   </div>
                   <div className="carousel-item">
-                    <img
-                      className="img-fluid"
-                      src="../../images/Projects/University Projects/Youth Cultural Center/1-12 Phase two.jpg"
-                      alt="Phase Two"
-                    />
+                    <Zoom>
+                      <img
+                        className="img-fluid"
+                        src="../../images/Projects/University Projects/Youth Cultural Center/1-12 Phase two.jpg"
+                        alt="Phase Two"
+                      />
+                    </Zoom>
                   </div>
                   <div className="carousel-item">
-                    <img
-                      className="img-fluid"
-                      src="../../images/Projects/University Projects/Youth Cultural Center/1-13 3D Design.jpg"
-                      alt="3D Design"
-                    />
+                    <Zoom>
+                      <img
+                        className="img-fluid"
+                        src="../../images/Projects/University Projects/Youth Cultural Center/1-13 3D Design.jpg"
+                        alt="3D Design"
+                      />
+                    </Zoom>
                   </div>
                 </div>
                 <a
