@@ -326,7 +326,7 @@ object {
     border-radius: 0;
 }
 
-span {
+.modal-content span {
     font-size: 11px;
     text-transform: uppercase;
     color: whitesmoke;

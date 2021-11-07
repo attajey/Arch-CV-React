@@ -29,19 +29,6 @@ const SusRuralDev = () => {
             Download This Document
           </a>
         </div>
-        <div className="row">
-          <object
-            data="../../images/Projects/Researches/Sustainable Rural Development.pdf"
-            type="application/pdf"
-          >
-            <p>
-              Your web browser doesn't have a PDF plugin. Instead you can{" "}
-              <a href="../../images/Projects/Researches/Sustainable Rural Development.pdf">
-                click here to download the PDF file.
-              </a>
-            </p>
-          </object>
-        </div>
       </div>
     </Fragment>
   );

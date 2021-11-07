@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import Typer from "react-animated-typer";
+import { NavLink } from "react-router-dom";
 const Home = ({ title }) => {
   document.title = "Home";
   return (
@@ -18,24 +19,26 @@ const Home = ({ title }) => {
               />
             </div>
           </h3>
-          <div className="row">
-            <div className="col-12 col-md-2"></div>
-            <div className="col-12 col-md-8">
-              <p className="pt-5 px-3 lh-lg fs-5">
-                A fresh graduate, a highly organized and efficient individual
-                and group member, an art enthusiastic, a curios student who is
-                eager to learn with hopes of using sustainable design as a way
-                to reduce the climate change.
-              </p>
+          <div className="row justify-content-center">
+            <div className="row">
+              <div className="col-12 col-md-2"></div>
+              <div className="col-12 col-md-8">
+                <p className="pt-5 px-3 lh-lg fs-5">
+                  A fresh graduate, a highly organized and efficient individual
+                  and group member, an art enthusiastic, a curios student who is
+                  eager to learn with hopes of using sustainable design as a way
+                  to reduce the climate change.
+                </p>
+              </div>
+              <div className="col-12 col-md-2"></div>
             </div>
-            <div className="col-12 col-md-2"></div>
             <div className="row">
               <div className="col-12 text-center">
-                <a className="" href="./projects.html">
+                <NavLink className="" to="/projects">
                   <button type="button" className="btn btn-dark mb-5">
                     Checkout My Projects
                   </button>
-                </a>
+                </NavLink>
               </div>
             </div>
           </div>

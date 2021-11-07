@@ -28,19 +28,6 @@ const FiveRenov = () => {
             Download This Document
           </a>
         </div>
-        <div className="row">
-          <object
-            data="../../images/Projects/Researches/RESEARCH ON FIVE SUCCESSFUL RENOVATION PROJECTS .pdf"
-            type="application/pdf"
-          >
-            <p>
-              Your web browser doesn't have a PDF plugin. Instead you can{" "}
-              <a href="../../images/Projects/Researches/RESEARCH ON FIVE SUCCESSFUL RENOVATION PROJECTS .pdf">
-                click here to download the PDF file.
-              </a>
-            </p>
-          </object>
-        </div>
       </div>
     </Fragment>
   );

@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -44,24 +45,24 @@ const Footer = () => {
             <h5 className="text-uppercase pb-3 ">Quick Access</h5>
             <ul className="list-unstyled pb-3 ">
               <li className="p-2">
-                <a href="./index.html" className="footer-quick-link">
+                <NavLink to="/" className="footer-quick-link">
                   Home
-                </a>
+                </NavLink>
               </li>
               <li className="p-2">
-                <a href="./projects.html" className="footer-quick-link">
+                <NavLink to="/projects" className="footer-quick-link">
                   Projects
-                </a>
+                </NavLink>
               </li>
               <li className="p-2">
-                <a href="./about.html" className="footer-quick-link">
+                <NavLink to="/about" className="footer-quick-link">
                   About Me
-                </a>
+                </NavLink>
               </li>
               <li className="p-2">
-                <a href="./contact.html" className="footer-quick-link">
+                <NavLink to="/contact" className="footer-quick-link">
                   Contact Me
-                </a>
+                </NavLink>
               </li>
             </ul>
           </div>
