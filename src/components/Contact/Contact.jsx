@@ -89,8 +89,8 @@ const About = () => {
           >
             <i className="fa fa-map-pin contact-icon"></i>
             <address className="pt-3">
-              <a href="https://goo.gl/maps/gvQHEjRDTPpVSDrt7" target="__blank">
-                40th Sayyad Shirazi Blvd, Mshd, Iran
+              <a href="https://goo.gl/maps/2DgJ5xFNCPAYokSL7" target="__blank">
+                Mashhad, R-Kh Province, Iran
               </a>
             </address>
           </div>

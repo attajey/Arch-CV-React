@@ -22,7 +22,7 @@ const SusRuralDev = () => {
         </div>
         <div className="row pb-5 fs-4 fa fa-download">
           <a
-            href="./image/Projects/Researches/Sustainable Rural Development.pdf"
+            href="../../images/Projects/Researches/Sustainable Rural Development.pdf"
             target="__blank"
             download
           >

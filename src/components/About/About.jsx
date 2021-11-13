@@ -66,8 +66,8 @@ const About = () => {
                   </p>
                   <a
                     className="text-info"
-                    href="An internship program in Arian Engineering Group, mainly focused on Auto-cad drafting, Residential 
-                  Design, etc."
+                    href="https://instagram.com/arian.engineering.group"
+                    target="__blank"
                   >
                     Visit Arian Eng. Gp. Page
                   </a>
@@ -205,7 +205,7 @@ const About = () => {
                     <p className="ps-2">IRSAFAM Institute</p>
                   </div>
                   <p className="ps-5">
-                    Holder of IIELTS degree with overall band score of{" "}
+                    Holder of IIELTS degree with overall band score of 7
                   </p>
                   <a
                     className="ps-5 text-info"
@@ -253,7 +253,7 @@ const About = () => {
                   <p className="fs-6 ps-4">&#160;Issued Sep 2017</p>
                   <div className="d-flex flex-row ps-4">
                     <i className="fa fa-circle pt-1"></i>
-                    <p className="ps-2">Setavin Art And Architecture Network</p>
+                    <p className="ps-2">Mashhad Architecture</p>
                   </div>
                   <p className="ps-5">
                     Discussed topics in these workshops were design processes,
